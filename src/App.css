@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
 .App {
   text-align: center;
 }
@@ -5,6 +7,371 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0rem;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 0px;
+}
+
+nav {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  height: 76px;
+  width: 78px;
+}
+
+.more {
+  padding-left: 10px;
+  height: 25px;
+  width: 33px;
+}
+
+.header {
+  height: 480px;
+}
+
+.headerpic {
+  height: 480px;
+  width: 100%;
+  padding: 0%;
+}
+
+.category {
+  background-image: url("../public/pictures/category.png");
+  background-size: 9999px;
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.category img {
+  position: relative;
+  width: 262px;
+  height: 262px;
+  aspect-ratio: 1;
+  align-self: start;
+  padding-right: 10px;
+  border-radius: 20%;
+  padding: 20px;
+  transition: 0.5s all ease-in-out;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.category-images img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.category-images img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.title1 {
+  position: absolute;
+  margin-left: 410px;
+  padding-top: 260px;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.title2 {
+  position: absolute;
+  padding-left: 718px !important;
+  padding-top: 260px !important;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.title3 {
+  position: absolute;
+  padding-left: 964px !important;
+  padding-top: 260px !important;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.title4 {
+  position: absolute;
+  padding-left: 365px !important;
+  padding-top: 570px !important;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.title5 {
+  position: absolute;
+  padding-left: 718px !important;
+  padding-top: 570px !important;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.title6 {
+  position: absolute;
+  padding-left: 1037px !important;
+  padding-top: 570px !important;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.centered {
+  position: absolute;
+  top: 18%;
+  right: 12%;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.category-images {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.category-imagess {
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  width: 100%;
+  overflow: hidden !important;
+  display: inline-block;
+}
+
+.quality {
+  background-image: url("../public/pictures/disclaimer.png");
+  background-size: 100%;
+  width: 100%;
+  height: 230px;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+
+.qualityh {
+  padding-top: 15px;
+  font-weight: 800;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+.qualityh4 {
+  padding-top: 15px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #db0007;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.quality p {
+  font-size: 20px;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.menu {
+  background-image: url("../public/pictures/seeds.png");
+  background-size: 63%;
+  width: 100%;
+  height: 2200px;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  max-height: 20000px;
+}
+
+.foods {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0rem;
+  padding-top: 65px;
+  max-height: 400px;
+}
+
+.foods img {
+  border-top-left-radius: 5cap;
+  border-top-right-radius: 5cap;
+  height: 174.2px;
+  width: 435.5px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.centered {
+  position: absolute;
+  top: 18%;
+  right: 12%;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.article {
+  position: relative;
+  display: grid;
+
+  max-height: fit-content;
+  padding-left: 32.5px;
+  padding-right: 32.5px;
+  margin-bottom: 65px;
+}
+
+section {
+  padding: 0%;
+  margin: 0%;
+  align-items: center;
+  height: fit-content !important;
+}
+
+.description {
+  width: 435.5px;
+  background-color: #ffbc0d;
+  padding: 0%;
+  margin: 0%;
+  border-bottom-left-radius: 5cap;
+  border-bottom-right-radius: 5cap;
+}
+
+.description p {
+  padding: 25px;
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 0%;
+}
+
+.footer {
+  background-image: url("../public/pictures/category.png");
+  background-size: 9999px;
+  width: 100%;
+  height: 209px;
+  background-repeat: no-repeat;
+
+  display: flex;
+}
+
+.footer-logo {
+  padding: 20px;
+  padding-top: 60px;
+  padding-left: 285px;
+}
+
+.download {
+  width: 111.66px;
+  height: 209px;
+}
+
+.download1 img {
+  height: 33.9px;
+  width: 111.66px;
+  padding-top: 68px;
+  padding-left: 29px;
+}
+
+.download2 img {
+  height: 33.9px;
+  width: 111.66px;
+  padding-top: 5px;
+  padding-left: 29px;
+}
+
+table {
+  padding-top: 60px;
+}
+
+th,
+td {
+  padding-left: 50px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.logos img {
+  height: 29.6px;
+  padding-top: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #db0007;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+.down {
+  position: absolute;
+  padding-left: 230px;
+  padding-top: 55px;
+}
+
+.down img {
+  height: 15px;
+  width: 25px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +403,60 @@
     transform: rotate(360deg);
   }
 }
+
+.tc-red {
+  color: #db0007;
+}
+.fs30 {
+  font-size: 30px;
+}
+.fa {
+  font-family: Fontawesome;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
