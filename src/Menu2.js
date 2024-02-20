@@ -2,56 +2,37 @@ import Foods from "./Foods.js";
 
 const foodsdata = [
   {
-    name: "EGGS",
-    photoName: "./pictures/Eggs.jpeg",
-    alt: "Eggs",
+    name: "CHICKEN",
+    photoName: "./pictures/Chicken.jpeg",
+    alt: "chicken",
     description:
-      "All our eggs have thick whites and round, well-centered, protruded yolks. That is because McDonald’s uses farm-fresh, low-cholesterol, grade-A eggs, each going through the rigorous candling process. These eggs are washed and sanitized to remove dirt, then re-coated with mineral oil to ensure they are clean. These are chilled and are only cracked before cooking to retain its quality and taste.      ",
+      "McDonald’s Chicken McNuggets and Chicken Patties (used for McChicken Sandwich) are made from boneless breast and thigh meat, coated in a tempura batter coating. Chicken McNuggets are shaped to ensure its consistency in weight and coated in a specially seasoned breading. The fried chicken is made from bone-in chicken sourced from reputable suppliers.",
   },
 
   {
-    name: "MILK",
-    photoName: "./pictures/Milk.jpeg",
-    alt: "milk",
+    name: "FRIES",
+    photoName: "./pictures/Fries2.jpeg",
+    alt: "fries",
     description:
-      "McDonald’s Sundaes are made from milk, sugar, palm oil and stabilizer – a necessary ingredient to give the smooth creamy taste. ",
+      "McDonald’s world-famous French Fries are produced from only the best, high-quality potatoes of the Russet Burbank, Russet Rangers and Shepody variety. These potatoes are specially blanched and processed to retain its maximum nutrients, then cooked with fat-free Palm Olein Oil. That explains the fluffy inside, crispy outside freshness of McDonald’s fries.",
   },
 
   {
-    name: "CHEESE",
-    photoName: "./pictures/Cheese.jpeg",
-    alt: "cheese",
+    name: "COFFEE",
+    photoName: "./pictures/Coffee.jpeg",
+    alt: "coffee",
     description:
-      "McDonald’s uses pasteurized process American cheese slices, perfectly complementing the flavor of pure beef.      ",
-  },
-
-  {
-    name: "VEGETABLES",
-    photoName: "./pictures/Vegetables.jpeg",
-    alt: "vegetables",
-    description:
-      "We use freshly shredded lettuce in our burgers. Our lettuce heads contain no additives or preservatives, sourced from the cold mountains of Bukidnon and Baguio, shredded in McDonald’s approved facility.",
-  },
-  {
-    name: "BUNS",
-    photoName: "./pictures/Buns.jpeg",
-    alt: "buns",
-    description:
-      "McDonald’s buns are baked locally and delivered fresh regularly to guarantee maximum taste and freshness.",
-  },
-
-  {
-    name: "BEEF",
-    photoName: "./pictures/Beef.jpeg",
-    alt: "beef",
-    description:
-      "McDonald’s only uses 100% pure beef for its Hamburger, Cheeseburger, Big Mac, Quarter Pounder with cheese and Big N' Tasty with no additives, preservatives or flavor enhancers. Everyday, burger patties are prepared and packaged at McDonald’s approved meat plant. Even before the beef blocks arrive at the plant, McDonald’s supplier conducts several quality checks on every batch. These beef patties are grilled without using fats and oils, seasoned only with salt and pepper for flavoring. ",
+      "McDonald’s Premium Roast Coffee is made of 100% pure Arabica coffee beans that are world-famous for its unmistakable quality and produces only the perfect combination of flavor and aroma.      ",
   },
 ];
 
-function Menu() {
+function Menu2() {
   return (
     <div className="menu">
+      <div flex className="menubuttons">
+        <button>Menu</button>
+        <button>Ingredients</button>
+      </div>
       <div className="foods">
         {foodsdata.map((foods) => (
           <Foods Foods={foods} key={foods.name} />
@@ -183,4 +164,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default Menu2;
